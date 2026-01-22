@@ -38,3 +38,36 @@ Model performance was evaluated using classification metrics such as accuracy an
 - Google Colab  
 
 ## Project Structure
+```bash
+water-potability-prediction/
+├── notebooks/
+│ └── water_potability.ipynb
+├── data/
+│ └── README.md
+├── requirements.txt
+├── .gitignore
+└── README.md
+```
+
+## How to Run
+1. Clone the repository  
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Download the dataset from Kaggle  
+4. Open and run the notebook in Jupyter Notebook or Google Colab  
+
+## Limitations
+- Mean imputation may reduce feature variance  
+- Accuracy alone may not fully capture real-world risk, especially for false negative predictions  
+- Further tuning and additional evaluation metrics could improve model reliability  
+
+## Program Context
+This project was completed as part of the **IBM SkillsBuild – Mastering Data with Machine Learning** program in collaboration with **CSRBOX**.
+
+## License
+This project is licensed under the MIT License.
+
+
+
