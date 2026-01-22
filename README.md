@@ -42,8 +42,6 @@ Model performance was evaluated using classification metrics such as accuracy an
 water-potability-prediction/
 ├── notebooks/
 │ └── water_potability.ipynb
-├── data/
-│ └── README.md
 ├── requirements.txt
 ├── .gitignore
 └── README.md
